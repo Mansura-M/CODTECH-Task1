@@ -1,0 +1,44 @@
+import character as c
+print(c.art1)
+print("Note:while entering values give space after your first value.")
+def num():
+    number1,number2=map(int,input("enter two numbers:").split())
+    return number1,number2
+# print(numbers)
+def operation(numbers,choice):
+    if(choice==1):
+        operate=numbers[0]+numbers[1]
+        print(f"result:{operate}")
+        return operate
+    elif(choice==2):
+        operate=numbers[0]-numbers[1]
+        print(f"result:{operate}")
+        return operate
+    elif(choice==3):
+        operate=numbers[0]*numbers[1]
+        print(f"result:{operate}")
+        return operate
+    elif(choice==4):
+        operate=numbers[0]/numbers[1]
+        print(f"result:{operate}")
+        return operate
+if __name__=='__main__':
+    numbers=num() 
+    choice=int(input("what operation do you want to perform?\n '1' for addition\n'2' for subtraction\n'3' for multiplication\n'4' for division\n "))
+    operate=operation(numbers,choice)
+    continues=True
+    while continues:
+        choice2=int(input("Do you want to continue your calculation with the result value or new value or do you want to exit?click 1 for option one\n2 for option two\n3 for option three\n "))
+        if(choice2==1):
+            second_number=int(input("enter the second number: "))
+            choice=int(input("what operation do you want to perform?\n '1' for addition\n'2' for subtraction\n'3' for multiplication\n'4' for division\n "))
+            answers=[operate,second_number]
+            operate=operation(answers,choice)   
+        elif(choice2==2):
+            numbers=num()
+            choice=int(input("what operation do you want to perform?\n '1' for addition\n'2' for subtraction\n'3' for multiplication\n'4' for division\n "))
+            operation(numbers,choice)
+        else:
+            continues=False
+            
+    print("THANK YOU FOR USING MY CALCULATOR.") 
