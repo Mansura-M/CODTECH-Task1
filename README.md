@@ -81,8 +81,9 @@ The calculator is designed to be intuitive and user-friendly. The following step
 ### Conclusion
 The Python Calculator project is a simple yet powerful tool for performing basic arithmetic operations. It provides a comprehensive learning experience for beginners, helping them to grasp essential programming concepts in Python. By offering continuous operations and flexible user interaction, the project ensures a smooth and user-friendly experience, making it a valuable addition to any beginner's programming portfolio.
 
-![Screenshot (689)](https://github.com/user-attachments/assets/d2fc3707-69bc-40ba-8564-00d7358909e7)
-![Screenshot (690)](https://github.com/user-attachments/assets/2b41c262-291d-4110-a410-8de563a466b8)
+![Screenshot (689)](https://github.com/user-attachments/assets/5bedc3e0-73ed-4573-8655-78037ebcee33)
+![Screenshot (690)](https://github.com/user-attachments/assets/f8b2292a-2c13-4122-82f0-848a098dd71f)
+
 
 
 
