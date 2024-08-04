@@ -1,9 +1,9 @@
-**Name**:Mansura M
-**Company**:CODTECH IT SOLUTIONS
-**ID**:CT4PP4214
-**Domain**:Python Programming
-**Duration**:July 5th,2024 to August 5th,2024
-**Mentor**:
+**Name:** Mansura M
+**Company:** CODTECH IT SOLUTIONS
+**ID:** CT4PP4214
+**Domain:** Python Programming
+**Duration:** July 5th,2024 to August 5th,2024
+**Mentor:**
 
 ## Project Overview: Python Calculator
 
